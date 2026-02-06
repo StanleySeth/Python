@@ -14,3 +14,8 @@ print("The perimeter is:" ,P)
 A = (L * Wi)
 print("The area is:", A)
 # Research on python list, tuple and Dictionary Data type
+#examples of lists
+List =  ["Car", "Buildings", "Mall", "Airport"]
+print(List)
+    
+           
