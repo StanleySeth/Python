@@ -22,9 +22,16 @@ print("===============================================")
 player = {
     "name" : "Messi",
     "age" : 40,
-    "teams" : ["PSG", "Barcelona", "Argentina"]
+    "teams" : ["PSG", "Barcelona", "Argentina"],
+    "more" : {
+        "children" : 3,
+        "residence" : "US",
+        "phone" : "12345678", "87654321", "56734218"
+    }
 }
 
 #print Barcelona
-player= "Barcelona"
-print(player)
+print(player["teams"][1])
+
+#print Messi;s second number 
+print(player[more[phone[1]]])
