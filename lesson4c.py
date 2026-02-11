@@ -16,31 +16,38 @@ for county in counties:
    print(county)
 
 print("======================================")
+search = input("Enter a county to search: ")
 
-##counties= (input("Enter County:"))
+found = False
 
-   #print("County included")    
-#else:
-   #print("County Not Found")
+for county in counties:
+    if county == search:
+       found = True
+       break #Stops checking once county is found
+    if found:
+       print(search, "Included")
+    else:
+       print(search, "Not Found")
+
 
 #print("======================================")
 
 #The for loop can also be used to create through a dictionary
 
-player = {
-   "name": "Mbappe",
-   "age": 25,
-   "teams": ["PSG", "Monaco", "France"],
-   "nationality": "French"
-}
+# player = {
+   #"name": "Mbappe",
+   #"age": 25,
+   #"teams": ["PSG", "Monaco", "France"],
+   #"nationality": "French"
+#}
 
-for key in player:
-   print(key)
+#for key in player:
+   #print(key)
 
-print("======================================")
-for value in player:
-   print(player[value])
+#print("======================================")
+#for value in player:
+  # print(player[value])
 #Show the loop of the teams
-print("======================================")
-for team in player["teams"]:
-   print(team)
+#rint("======================================")
+#for team in player["teams"]:
+   #print(team)
